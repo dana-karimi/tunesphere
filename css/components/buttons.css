@@ -1,0 +1,27 @@
+.btn-white {
+    background-color: #1e1e1e;
+    padding: 20px 60px;
+    border-radius: 15px;
+    color: white;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    margin: 0 auto;
+    position: relative;
+}
+
+.btn-white-container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn-white:hover {
+    background-color: #ff5a5f;
+    transform: translateY(-3px);
+}
+
